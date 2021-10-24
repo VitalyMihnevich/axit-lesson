@@ -1,1 +1,170 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/*
+RESET CSS
+==================*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Base
+=================*/
+
+.wraper {
+  text-align: center;
+  width: 1400px;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+.conteiner {
+  width: 78%;
+  margin: 0 auto;
+}
+
+/*Header
+=============*/
+.header {
+  padding-top: 100px;
+  padding-bottom: 1px;
+}
+
+.title {
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-size: 36px;
+  color: #212121;
+}
+
+.line {
+  margin: 0 auto;
+  margin-bottom: 36px;
+  border: none;
+  height: 2px;
+  width: 64px;
+  background: #e72424;
+}
+.subtitle {
+  margin-bottom: 30px;
+  color: #86878b;
+}
+
+/*Mine
+=============*/
+
+/*Card
+=============*/
+
+.card {
+  display: inline-block;
+  width: 350px;
+  height: 225px;
+  padding-bottom: 100px;
+}
+
+.card_title {
+  padding: 16px 0 30px 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: #333333;
+}
+
+/*card icon
+=============*/
+
+.card-icon-lamp {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 1px solid #e72424;
+  background-image: url(../img/lamp.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card-icon-keyboard {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 1px solid #e72424;
+  background: url(../img/keyboard.png) no-repeat center;
+}
+
+.card-icon-laghting {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 1px solid #e72424;
+  background: url(../img/lightning.png) no-repeat center;
+}
+
+/*Infobox
+=======================*/
+
+.infobox {
+  display: block;
+  height: 325px;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.65) 0%,
+      rgba(0, 0, 0, 0.65) 100%
+    ),
+    url(../img/city.png);
+  /*Вариант с наложением картинки svg  */
+  /*background: url(../img/mask-svg.svg), url(../img/city.png);*/
+  font-family: "Raleway", sans-serif;
+  color: #ffffff;
+}
+
+.infobox-title {
+  padding: 75px 0 48px 0;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 36px;
+}
+
+.infobox-line {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  border: none;
+  height: 2px;
+  width: 64px;
+  background: #ffffff;
+}
+
+.info-subtitle {
+  margin-bottom: 30px;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.infobox-button {
+  width: 135px;
+  height: 42px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-size: 15px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+/*Futer
+=================*/
+
+.futer {
+  display: block;
+  height: 101px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.futer-social-img {
+  margin-top: 30px;
+  margin-bottom: 18px;
+}
+
+.futer-author {
+  font-size: 12px;
+}
