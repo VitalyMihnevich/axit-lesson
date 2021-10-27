@@ -28,7 +28,7 @@ RESET CSS
   padding-bottom: 1px;
 }
 
-.title {
+.header-title {
   margin-bottom: 25px;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
@@ -36,7 +36,7 @@ RESET CSS
   color: #212121;
 }
 
-.line {
+.header-line {
   margin: 0 auto;
   margin-bottom: 36px;
   border: none;
@@ -44,7 +44,7 @@ RESET CSS
   width: 64px;
   background: #e72424;
 }
-.subtitle {
+.header-subtitle {
   margin-bottom: 30px;
   color: #86878b;
 }
@@ -92,7 +92,7 @@ RESET CSS
   background: url(../img/keyboard.png) no-repeat center;
 }
 
-.card-icon-laghting {
+.card-icon-lighting {
   width: 70px;
   height: 70px;
   margin: 0 auto;
